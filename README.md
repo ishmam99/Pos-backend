@@ -68,12 +68,34 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Run project
 
+Clone the Repository 
+
+Install Composer 
+```sh
+composer install
+```
+Copy the .exammple.env file 
+```sh
+cp .env.example .env
+```
+Generate App Key
+```sh
+php artisan key:generate
+```
+
+Change the Database Credentials from .env file
+
 migrate and seed data base
 ```sh
 php artisan migrate
 ```
 ```sh
 php artisan db:seed
+```
+Run Projhect
+
+```sh
+php artisan serve
 ```
 
 ### Test User
